@@ -3,11 +3,19 @@ body{
     justify-content: center;
     align-items: center;
 }
+h1{
+    position: absolute;
+    bottom:90%;
+    color: #7cf206;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 3em;
+}
 
 .container{
     display: flex;
-    width: 320px; /* 16 squares * 40px */
-    height: 320px; /* 16 squares * 40px */
+    width: 600px; /* 16 squares * 40px */
+    height: 600px; /* 16 squares * 40px */
     border: 2px solid black;
     flex-wrap: wrap;
     margin-top: 5em;
@@ -18,9 +26,6 @@ body{
     border: 1px solid black;
     cursor: pointer;
     box-sizing: border-box;
-}
-.grid-cell:hover{
-    background-color: #000;
 }
 .size{
     position: absolute;
